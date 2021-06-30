@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+#Container {
+    height: auto;
+}
+#header {
+    width: 100vw;
+    height: 25vh;
+    background-color: #384259;
+}
+.headerContent {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    color: white;
+}
+.headerContent h1 {
+    font-weight: 600;
+}
+.headerContent p {
+    padding-top: 10px;
+    color: #ABB4CB;
+}
+.bodyContent {
+    padding-top: 80px;
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 120px;
+}
+.Questions {
+    border-bottom: 1px solid #7ac7c46b;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.Question p {
+    color: #384259;
+    transition: .2s ease-in-out;
+    font-weight: 900;
+}
+.Question p:hover {
+    color: #384259c4;
+    transition: .2s ease-in-out;
+
+}
+.Questions img {
+    padding-right: 15px;
+}
+#MinusOne {
+    display: none;
+}
+#MinusTwo {
+    display: none;
+}
+#MinusThree {
+    display: none;
+}
+#MinusFour {
+    display: none;
+}
+#MinusFive {
+    display: none;
+}
+#MinusSix {
+    display: none;
+}
+.Question {
+    display: flex;
+    flex-direction: row;
+}
+#toggleOne {
+    display: none;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+#toggleTwo {
+    display: none;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+#toggleThree {
+    display: none;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+#toggleFour {
+    display: none;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+#toggleFive {
+    display: none;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+#toggleSix {
+    display: none;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+.chatButton {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 170px;
+    background-color: #7AC7C4;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    transition: ease-in-out .2s;
+}
+.chatButton:hover {
+    background-color: #69aca9;
+    transition: ease-in-out .2s;
+
+}
+.chatButton p {
+    margin-top: 8px;
+}
+.chatButton img {
+    margin-top: 14px;
+    margin-left: 2px;
+    padding: 0px;
+    padding-right: 8px;
+}
+#text {
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.4;
+    color: #384259;
+    font-weight: 400;
+}
+#footer {
+    position: relative;
+    width: 100vw;
+    height: 14vh;
+    background-color: rgb(247, 247, 247);
+    bottom: 0px;
+}
+.footerContent {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    font-weight: 100;
+    color: #384259;
+    font-weight: 400;
+}
+.footerContent a {
+    text-decoration: none;
+    color: #384259;
+    font-weight: 600;
+    border-bottom: #384259 solid 1px;
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "inktrap-assessment-questionssite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesgreen1111/Inktrap-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesgreen1111/Inktrap-Challenge/issues"
+  },
+  "homepage": "https://github.com/jamesgreen1111/Inktrap-Challenge#readme",
+  "dependencies": {
+    "start": "^5.1.0"
+  }
+}
